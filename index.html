@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Stream</title>
+    <style>
+        /* General Body Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Light gray background */
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #f44336; /* Red color, like Gaana's branding */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        /* Categories Navigation */
+        .categories {
+            background-color: #ffffff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .category {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            width: 20%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .category:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        .category h2 {
+            font-size: 1.5rem;
+            color: #f44336; /* Red color for category titles */
+        }
+
+        /* Song List Section */
+        .songs {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        /* Song Card */
+        .song-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .song-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .song-card h3 {
+            font-size: 1.6rem;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .song-card p {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .audio-player {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        audio {
+            width: 100%;
+            border-radius: 100px;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #f44336; /* Same red as header */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Music Stream</h1>
+        <p>Your favorite music, anytime, anywhere.</p>
+    </header>
+
+    <!-- Categories Section -->
+    <div class="categories">
+        <div class="category">
+            <h2>Top Tracks</h2></a>
+        </div>
+	<a href="final artist webpage.html">
+	<div class="category">
+            <h2>Artists</h2>
+         </a>    
+        </div>
+    </div>
+
+    <!-- Songs Section (Top Tracks) -->
+    <div class="songs">
+        <div class="song-card">
+            <img src="https://m.media-amazon.com/images/I/61W7429370L._SX300_SY300_QL70_FMwebp_.jpg" alt="Song 1">
+            <h3>Shape of You</h3>
+            <p><strong>Artist:</strong> Ed Sheeran</p>
+            <p><strong>Album:</strong> Divide</p>
+            <div class="audio-player">
+            <audio controls>
+  <source src="Shape of U.mp3" type="audio/mp3">
+ </audio>
+  
+            </div>
+        </div>
+
+        
+        <div class="song-card">
+            <img src="https://m.media-amazon.com/images/I/61W7429370L._SX300_SY300_QL70_FMwebp_.jpg" alt="Song 2">
+            <h3>Perfect</h3>
+            <p><strong>Artist:</strong>Ed Sheeran</p>
+            <p><strong>Album:</strong>Divide</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Perfect.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+	<div class="song-card">
+            <img src="https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36" alt="Song 2">
+            <h3>Blinding Lights</h3>
+            <p><strong>Artist:</strong> The Weeknd</p>
+            <p><strong>Album:</strong> After Hours</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Blinding Lights.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://source.boomplaymusic.com/group10/M00/04/08/99b729163a994b529a05bae42e4a0cfa_464_464.jpg" alt="Song 2">
+            <h3>God's Plan</h3>
+            <p><strong>Artist:</strong> Drake</p>
+            <p><strong>Album:</strong> Scorpion </p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="God's Plan.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+
+<div class="song-card">
+            <img src="https://i.scdn.co/image/ab67616d0000b2736ca5c90113b30c3c43ffb8f4" alt="Song 2">
+            <h3>Without Me</h3>
+            <p><strong>Artist:</strong>Eminem</p>
+            <p><strong>Album:</strong>The Eminem Show</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Without Me.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://i.scdn.co/image/ab67616d0000b2731ea0c62b2339cbf493a999ad" alt="Song 2">
+            <h3>Not Like Us</h3>
+            <p><strong>Artist:</strong>Kendrick Lamar</p>
+            <p><strong>Album:</strong>Not Like Us </p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Not Like Us.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VhESZ8HmMjLuOB3vKSQgGZNRRHlbvfvNAw&s" alt="Song 2">
+            <h3>Humble</h3>
+            <p><strong>Artist:</strong>Kendrick Lamar</p>
+            <p><strong>Album:</strong>Damn</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Humble.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://m.media-amazon.com/images/I/51ghXeDZLOL._SX300_SY300_QL70_FMwebp_.jpg" alt="Song 2">
+            <h3>Starboy</h3>
+            <p><strong>Artist:</strong>The Weeknd</p>
+            <p><strong>Album:</strong>Starboy</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Starboy.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkyCLRXXjzXen9B9yb9Ay6_DgzUtPtOTLcjA&s" alt="Song 2">
+            <h3>Die With A Smile</h3>
+            <p><strong>Artist:</strong>Bruno Mars and Lady Gaga </p>
+            <p><strong>Album:</strong>Die With A Smile</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Die With A Smile.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfTSzbtAhVR-SarhCmBKZ_zLgTCHeCxd5PNw&s" alt="Song 2">
+            <h3>Espresso</h3>
+            <p><strong>Artist:</strong>Sabrina Carpenter </p>
+            <p><strong>Album:</strong>Short n' Sweet</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Espresso.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+<div class="song-card">
+            <img src="https://lq.djjohal.com/covers/726786/Blowing%20Up.jpg" alt="Song 2">
+            <h3>Blowing Up </h3>
+            <p><strong>Artist:</strong>KR$NA</p>
+            <p><strong>Album:</strong>Blowing Up</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Blowing Up.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+ <div class="song-card">
+            <img src="https://pagalnew.com/coverimages/Firse-Machayenge-Emiway-Bantai-500-500.jpg" alt="Song 2">
+            <h3>Firse Machayenge</h3>
+            <p><strong>Artist:</strong>Emiway Bantai</p>
+            <p><strong>Album:</strong>Firse Machayenge</p>
+            <div class="audio-player">
+                <audio controls>
+                    <source src="Firse Machayenge.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+</div>
+
+
+
+</DIV>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Music Stream. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+        
